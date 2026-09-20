@@ -8,7 +8,7 @@ A Python tool to merge multiple PDF files into one. It runs as a **web app**, a 
 
 أداة بايثون لدمج عدة ملفات PDF في ملف واحد، تعمل كموقع ويب، وكتطبيق سطح مكتب، ومن سطر الأوامر.
 
-### 🌐 [Try the live demo](https://YOUR-APP-LINK.streamlit.app)
+### 🌐 [Try the live demo](https://narjes-pdf-merger.streamlit.app/)
 
 ![App screenshot](docs/screenshot.png)
 
@@ -33,7 +33,7 @@ A Python tool to merge multiple PDF files into one. It runs as a **web app**, a 
 ## Installation
 
 ```bash
-git clone https://github.com/YOUR-USERNAME/pdf-merger.git
+git clone https://github.com/Narjes455/pdf-merger.git
 cd pdf-merger
 python -m venv .venv
 ```
@@ -121,7 +121,7 @@ Uploaded files are processed in a temporary folder that is deleted right after t
 ## Author
 
 **Narjes Al-Omari**
-GitHub: [@YOUR-USERNAME](https://github.com/YOUR-USERNAME)
+GitHub: [@Narjes455](https://github.com/Narjes455)
 
 ## License
 
