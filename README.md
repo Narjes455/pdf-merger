@@ -120,7 +120,7 @@ Uploaded files are processed in a temporary folder that is deleted right after t
 
 ## Author
 
-**Narjes Al-Omari**
+**Narjes Alamari**
 GitHub: [@Narjes455](https://github.com/Narjes455)
 
 ## License
