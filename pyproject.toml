@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pdf-merger"
+version = "1.0.0"
+description = "Merge multiple PDF files into one - CLI and desktop app"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = ["pypdf>=4.0"]
+authors = [{ name = "Narjes Al-Omari" }]
+license = { text = "MIT" }
+
+[project.scripts]
+pdf-merger = "pdf_merger.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
